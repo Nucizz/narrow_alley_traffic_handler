@@ -13,7 +13,7 @@ const int buzzerPin = 12;
 bool stateA = false, stateB = false;
 
 // Variable Default
-const int MINIMUM_DISTANCE = 100; // Jarak minimum untuk terdeteksi
+const int MINIMUM_DISTANCE = 15; // Jarak minimum untuk terdeteksi
 const bool BUZZER_USAGE = true; // Meng-aktifkan/non-aktifkan buzzer
 
 void setup() { // Melakukan setup dan start animation
